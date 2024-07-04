@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="head.css">
+<style>
+    body{
+        text-align: center;
+        border-style: double;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(link.jpeg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nav {
+        overflow: hidden;
+        background-color: black;
+        transition: all;
+    }
+    .nav a {
+        font-size: 40px;
+        padding: 15px 18px;
+        float: left;
+        display: block;
+        color: whitesmoke;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Feedback</a>
+                <a href="#">Contact</a>
+                <a href="#">Careers</a>
+                
+            </div>
+        </nav>
+    </header>
+    <form action="login.php" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
+        <a href="index.html">login</a>
+    </form>
+
+</body>
+</html>

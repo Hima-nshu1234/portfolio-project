@@ -1,0 +1,54 @@
+.links {
+    overflow: hidden;
+    background-color: crimson;
+}
+.head a{
+    font-size: 40px;
+}
+.links a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+.links a:hover {
+    background-color: blueviolet;
+    color: black;
+}
+.links a.active {
+    background-color: palevioletred
+    color(srgb red green blue)
+}
+    
+body {
+        margin: 0;
+        font-size: 30px;
+        border-style: dotted;
+        font-style: italic;
+        text-align: center;
+        padding: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-image: url('facebook-template-3d-illustration_665513-4.avif'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+        
+    } 
+.nav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 30px ;
+
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    
+}
